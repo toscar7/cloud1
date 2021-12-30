@@ -7,7 +7,7 @@ provider "aws" {
 resource "aws_instance" "terraform" {
   ami           = "ami-061ac2e015473fbe2"
   instance_type = "t2.micro"
-  count         = "2"
+  count         = "3"
   #availability_zone = "us-east-1"
   #key_name          = "JENK-PIPE"
 
